@@ -41,6 +41,28 @@
                                 <rect key="frame" x="119" y="26" width="176" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJ5-xl-o4d">
+                                <rect key="frame" x="160" y="298" width="99" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <state key="normal" title="Translator">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Xwt-52-Ibh" kind="show" id="k5T-3T-ZgX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKh-lo-UbJ">
+                                <rect key="frame" x="158" y="371" width="103" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <state key="normal" title="Calculator">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xcn-YK-6rf" kind="show" id="KZ4-im-sx9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -69,6 +91,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PGN-AE-UJ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="635" y="152"/>
+        </scene>
+        <!--translator-->
+        <scene sceneID="YIz-UE-QCc">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="translator" storyboardName="translator" referencedIdentifier="translator" id="Xwt-52-Ibh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="qUJ-VF-ixZ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohG-9B-MCe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="635" y="217"/>
+        </scene>
+        <!--calculator-->
+        <scene sceneID="SWd-jA-bFY">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="calculator" storyboardName="calculator" referencedIdentifier="calculator" id="xcn-YK-6rf" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="tuh-g1-Qlw"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XeH-mv-bEe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="624" y="254"/>
         </scene>
     </scenes>
     <resources>

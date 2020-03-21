@@ -63,6 +63,17 @@
                                     <segue destination="xcn-YK-6rf" kind="show" id="KZ4-im-sx9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWr-Me-wCF">
+                                <rect key="frame" x="161" y="437" width="98" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <state key="normal" title="Hangman">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ADP-Ro-1h1" kind="show" id="F1X-nC-b6e"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -111,6 +122,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XeH-mv-bEe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="624" y="254"/>
+        </scene>
+        <!--hangman-->
+        <scene sceneID="GEF-mh-3jf">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="hangman" storyboardName="hangman" referencedIdentifier="hangman" id="ADP-Ro-1h1" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vG6-5T-BVL"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZL3-WW-ATM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="615" y="289"/>
         </scene>
     </scenes>
     <resources>

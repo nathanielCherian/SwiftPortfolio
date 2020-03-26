@@ -24,6 +24,7 @@
 		D8090E442420687700CFFC8F /* calculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8090E432420687700CFFC8F /* calculatorViewController.swift */; };
 		D8B4B45824217ACB003B659A /* hangman.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B4B45724217ACB003B659A /* hangman.storyboard */; };
 		D8B4B45A24218249003B659A /* hangmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4B45924218249003B659A /* hangmanViewController.swift */; };
+		D8B4B45C2426D432003B659A /* wordlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = D8B4B45B2426D432003B659A /* wordlist.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		D8090E432420687700CFFC8F /* calculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorViewController.swift; sourceTree = "<group>"; };
 		D8B4B45724217ACB003B659A /* hangman.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = hangman.storyboard; sourceTree = "<group>"; };
 		D8B4B45924218249003B659A /* hangmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangmanViewController.swift; sourceTree = "<group>"; };
+		D8B4B45B2426D432003B659A /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				D8090E37241D7CC300CFFC8F /* translatorViewController.swift */,
 				D8090E432420687700CFFC8F /* calculatorViewController.swift */,
 				D8B4B45924218249003B659A /* hangmanViewController.swift */,
+				D8B4B45B2426D432003B659A /* wordlist.txt */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				B9E1DB28241BF1AB0069DA51 /* pythag.storyboard in Resources */,
 				B9E1DB1D241BEFA00069DA51 /* Assets.xcassets in Resources */,
 				D8090E42242066CB00CFFC8F /* calculator.storyboard in Resources */,
+				D8B4B45C2426D432003B659A /* wordlist.txt in Resources */,
 				B9E1DB1B241BEF9F0069DA51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

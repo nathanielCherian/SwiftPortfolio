@@ -20,6 +20,7 @@ class hangmanViewController: UIViewController {
     @IBOutlet weak var usedLettersLabel: UILabel!
     @IBOutlet weak var inputField: UITextField!
     @IBOutlet var restartButton: UIButton!
+    @IBOutlet weak var loseNotif: UILabel!
     
     
     var incorrectGuess = Int(-1)
@@ -35,6 +36,7 @@ class hangmanViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         restartButton.isHidden = true
+        loseNotif.isHidden = true
         
         //usedLettersLabel.text = "h" + "\n" + "j"
         let fileURLProject = Bundle.main.path(forResource: "wordlist", ofType: "txt")
@@ -97,6 +99,7 @@ class hangmanViewController: UIViewController {
         myWord = [] // this array will be editable and displayed
         guesNum = Int(0) // num of guesses passes to controller
         badLetters = []
+        loseNotif.isHidden = true
     }
     
     
@@ -164,8 +167,7 @@ class hangmanViewController: UIViewController {
                 }else if i == wordRand.count - 1{
                     if test == 0{
                         if controller(val: guesNum) == false{
-                            restart()
-                            start()
+                            loseNoti()
                             break;
                         }
                         guesNum+=1
@@ -180,6 +182,21 @@ class hangmanViewController: UIViewController {
             
         }
     }
+    
+    func loseNoti() -> Void {
+        loseNotif.isHidden = false
+        restartButton.isHidden = false;
+        
+        var str = ""
+        for character in wordRand{
+            
+            str = str + String(character) + " "
+        }
+        
+        
+        loseNotif.text = str
+    }
+    
     
     
     

@@ -97,6 +97,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="the word was" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wu7-8O-Fu8">
+                                <rect key="frame" x="49" y="514" width="317" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MtE-Gn-zc4"/>
@@ -107,6 +114,7 @@
                         <outlet property="inputField" destination="QQY-dB-UI0" id="W7E-hy-Nfc"/>
                         <outlet property="leftArm" destination="rKz-FB-a8z" id="8rS-D0-11U"/>
                         <outlet property="leftLeg" destination="X5z-k7-2Oi" id="7UE-Zp-E5j"/>
+                        <outlet property="loseNotif" destination="Wu7-8O-Fu8" id="LTt-YR-2cM"/>
                         <outlet property="restartButton" destination="0Lq-Qo-KRs" id="4da-lD-LrC"/>
                         <outlet property="rightArm" destination="ZI0-BT-rkB" id="271-u5-9u9"/>
                         <outlet property="rightLeg" destination="qYj-4d-fGQ" id="kSn-13-cp3"/>

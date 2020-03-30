@@ -19,7 +19,8 @@ class anagramsViewController: UIViewController {
     @IBOutlet weak var but6: UIButton!
     
     @IBOutlet weak var progressLabel: UILabel!
-    @IBOutlet weak var correctWordsLabel: UILabel!
+    @IBOutlet weak var correctWordsLabel: UITextView!
+    @IBOutlet weak var guessesLabel: UILabel!
     
     
     var all_words : [String] = []
@@ -29,6 +30,7 @@ class anagramsViewController: UIViewController {
     var building_word : String = ""
     var complete_words : String = ""
     var used_words : [String] = []
+    var correct_guesses : Int = 0;
     
     
     
@@ -36,6 +38,8 @@ class anagramsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        correctWordsLabel.isUserInteractionEnabled = false
+        correctWordsLabel.isEditable = false
         assignWords()
         assignDict()
         
@@ -49,7 +53,7 @@ class anagramsViewController: UIViewController {
         chosen_array = Array(chosen_word)
         used_words = []
         building_word = ""
-        
+        correct_guesses = 0
         
         but0.setTitle(String(chosen_array[0]), for: .normal)
         but1.setTitle(String(chosen_array[1]), for: .normal)
@@ -71,6 +75,7 @@ class anagramsViewController: UIViewController {
                 correctWordsLabel.text = building_word + "\n" + correctWordsLabel.text!
                 building_word = ""
                 progressLabel.text = ""
+                correct_guesses += 1
                 
                 but0.setTitleColor(UIColor.black, for: .normal)
                 but0.isUserInteractionEnabled = true
@@ -88,7 +93,7 @@ class anagramsViewController: UIViewController {
                 but6.isUserInteractionEnabled = true
             }
         }
-        
+        guessesLabel.text = String(correct_guesses)
     }
     
     

@@ -22,6 +22,10 @@
 		D8090E40241D80B600CFFC8F /* translate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8090E3F241D80B600CFFC8F /* translate.c */; };
 		D8090E42242066CB00CFFC8F /* calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8090E41242066CB00CFFC8F /* calculator.storyboard */; };
 		D8090E442420687700CFFC8F /* calculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8090E432420687700CFFC8F /* calculatorViewController.swift */; };
+		D844A0DC24316E3C004358BD /* anagrams.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D844A0DB24316E3C004358BD /* anagrams.storyboard */; };
+		D844A0DE24317004004358BD /* anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D844A0DD24317004004358BD /* anagrams.swift */; };
+		D844A0E0243171BC004358BD /* sevenLetters.txt in Resources */ = {isa = PBXBuildFile; fileRef = D844A0DF243171BC004358BD /* sevenLetters.txt */; };
+		D844A0E22431A897004358BD /* dictionarySix.txt in Resources */ = {isa = PBXBuildFile; fileRef = D844A0E12431A896004358BD /* dictionarySix.txt */; };
 		D8B4B45824217ACB003B659A /* hangman.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B4B45724217ACB003B659A /* hangman.storyboard */; };
 		D8B4B45A24218249003B659A /* hangmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4B45924218249003B659A /* hangmanViewController.swift */; };
 		D8B4B45C2426D432003B659A /* wordlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = D8B4B45B2426D432003B659A /* wordlist.txt */; };
@@ -47,6 +51,10 @@
 		D8090E3F241D80B600CFFC8F /* translate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = translate.c; sourceTree = "<group>"; };
 		D8090E41242066CB00CFFC8F /* calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = calculator.storyboard; sourceTree = "<group>"; };
 		D8090E432420687700CFFC8F /* calculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorViewController.swift; sourceTree = "<group>"; };
+		D844A0DB24316E3C004358BD /* anagrams.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = anagrams.storyboard; sourceTree = "<group>"; };
+		D844A0DD24317004004358BD /* anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anagrams.swift; sourceTree = "<group>"; };
+		D844A0DF243171BC004358BD /* sevenLetters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sevenLetters.txt; sourceTree = "<group>"; };
+		D844A0E12431A896004358BD /* dictionarySix.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionarySix.txt; sourceTree = "<group>"; };
 		D8B4B45724217ACB003B659A /* hangman.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = hangman.storyboard; sourceTree = "<group>"; };
 		D8B4B45924218249003B659A /* hangmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangmanViewController.swift; sourceTree = "<group>"; };
 		D8B4B45B2426D432003B659A /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
@@ -104,6 +112,7 @@
 				D8090E35241D7C0900CFFC8F /* translator.storyboard */,
 				D8090E41242066CB00CFFC8F /* calculator.storyboard */,
 				D8B4B45724217ACB003B659A /* hangman.storyboard */,
+				D844A0DB24316E3C004358BD /* anagrams.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,7 +125,10 @@
 				D8090E37241D7CC300CFFC8F /* translatorViewController.swift */,
 				D8090E432420687700CFFC8F /* calculatorViewController.swift */,
 				D8B4B45924218249003B659A /* hangmanViewController.swift */,
+				D844A0DD24317004004358BD /* anagrams.swift */,
 				D8B4B45B2426D432003B659A /* wordlist.txt */,
+				D844A0DF243171BC004358BD /* sevenLetters.txt */,
+				D844A0E12431A896004358BD /* dictionarySix.txt */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -191,13 +203,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8090E36241D7C0900CFFC8F /* translator.storyboard in Resources */,
+				D844A0E22431A897004358BD /* dictionarySix.txt in Resources */,
 				B9E1DB20241BEFA00069DA51 /* LaunchScreen.storyboard in Resources */,
 				B9E1DB2C241BF7580069DA51 /* square.storyboard in Resources */,
+				D844A0E0243171BC004358BD /* sevenLetters.txt in Resources */,
 				D8B4B45824217ACB003B659A /* hangman.storyboard in Resources */,
 				B9E1DB28241BF1AB0069DA51 /* pythag.storyboard in Resources */,
 				B9E1DB1D241BEFA00069DA51 /* Assets.xcassets in Resources */,
 				D8090E42242066CB00CFFC8F /* calculator.storyboard in Resources */,
 				D8B4B45C2426D432003B659A /* wordlist.txt in Resources */,
+				D844A0DC24316E3C004358BD /* anagrams.storyboard in Resources */,
 				B9E1DB1B241BEF9F0069DA51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +229,7 @@
 				B9E1DB2A241BF2D70069DA51 /* PythagViewController.swift in Sources */,
 				B9E1DB14241BEF9F0069DA51 /* AppDelegate.swift in Sources */,
 				B9E1DB2E241BF78B0069DA51 /* SquareViewController.swift in Sources */,
+				D844A0DE24317004004358BD /* anagrams.swift in Sources */,
 				D8090E442420687700CFFC8F /* calculatorViewController.swift in Sources */,
 				D8B4B45A24218249003B659A /* hangmanViewController.swift in Sources */,
 				D8090E38241D7CC300CFFC8F /* translatorViewController.swift in Sources */,
@@ -363,6 +379,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7BNW842H4;
 				INFOPLIST_FILE = swiftApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -383,6 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7BNW842H4;
 				INFOPLIST_FILE = swiftApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

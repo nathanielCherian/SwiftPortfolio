@@ -17,10 +17,14 @@ class anagramsViewController: UIViewController {
     @IBOutlet weak var but4: UIButton!
     @IBOutlet weak var but5: UIButton!
     @IBOutlet weak var but6: UIButton!
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var clearButn: UIButton!
     
     @IBOutlet weak var progressLabel: UILabel!
     @IBOutlet weak var correctWordsLabel: UITextView!
     @IBOutlet weak var guessesLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var finalScore: UILabel!
     
     
     var all_words : [String] = []
@@ -31,6 +35,8 @@ class anagramsViewController: UIViewController {
     var complete_words : String = ""
     var used_words : [String] = []
     var correct_guesses : Int = 0;
+    var timer: Timer?
+    var timeLeft = 20
     
     
     
@@ -43,9 +49,36 @@ class anagramsViewController: UIViewController {
         assignWords()
         assignDict()
         
-        start()
+        but0.isHidden = true
+        but1.isHidden = true
+        but2.isHidden = true
+        but3.isHidden = true
+        but4.isHidden = true
+        but5.isHidden = true
+        but6.isHidden = true
+        clearButn.isHidden = true
+        guessesLabel.isHidden = true
+        timeLabel.isHidden = true
+        progressLabel.isHidden = true
+        correctWordsLabel.isHidden = true
+        finalScore.isHidden = true
+        
+        finalScore.text = ""
+        
+        
+        //start()
         
     }
+    
+    @IBAction func startButn(_ sender: Any) {
+        startButton.setTitle("restart", for: .normal)
+        startButton.isHidden = true
+        finalScore.isHidden = true
+        start()
+    }
+    
+    
+    
     
     
     func start() -> Void {
@@ -54,6 +87,7 @@ class anagramsViewController: UIViewController {
         used_words = []
         building_word = ""
         correct_guesses = 0
+        timeLeft = 25
         
         but0.setTitle(String(chosen_array[0]), for: .normal)
         but1.setTitle(String(chosen_array[1]), for: .normal)
@@ -62,10 +96,68 @@ class anagramsViewController: UIViewController {
         but4.setTitle(String(chosen_array[4]), for: .normal)
         but5.setTitle(String(chosen_array[5]), for: .normal)
         but6.setTitle(String(chosen_array[6]), for: .normal)
-        progressLabel.text = "";
-        correctWordsLabel.text = "";
+        progressLabel.text = ""
+        correctWordsLabel.text = ""
+        guessesLabel.text = ""
+        timeLabel.text = String(timeLeft)
+        
+        but0.isHidden = false
+        but1.isHidden = false
+        but2.isHidden = false
+        but3.isHidden = false
+        but4.isHidden = false
+        but5.isHidden = false
+        but6.isHidden = false
+        clearButn.isHidden = false
+        guessesLabel.isHidden = false
+        timeLabel.isHidden = false
+        progressLabel.isHidden = false
+        correctWordsLabel.isHidden = false
+        
+        but0.setTitleColor(UIColor.black, for: .normal)
+        but0.isUserInteractionEnabled = true
+        but1.setTitleColor(UIColor.black, for: .normal)
+        but1.isUserInteractionEnabled = true
+        but2.setTitleColor(UIColor.black, for: .normal)
+        but2.isUserInteractionEnabled = true
+        but3.setTitleColor(UIColor.black, for: .normal)
+        but3.isUserInteractionEnabled = true
+        but4.setTitleColor(UIColor.black, for: .normal)
+        but4.isUserInteractionEnabled = true
+        but5.setTitleColor(UIColor.black, for: .normal)
+        but5.isUserInteractionEnabled = true
+        but6.setTitleColor(UIColor.black, for: .normal)
+        but6.isUserInteractionEnabled = true
+        
+        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(secondUpdater), userInfo: nil, repeats: true)
         
     }
+    
+    
+    @objc func secondUpdater(){
+        timeLeft -= 1
+        timeLabel.text = String(timeLeft)
+        
+        if timeLeft == 0 {
+            but0.isHidden = true
+            but1.isHidden = true
+            but2.isHidden = true
+            but3.isHidden = true
+            but4.isHidden = true
+            but5.isHidden = true
+            but6.isHidden = true
+            clearButn.isHidden = true
+            guessesLabel.isHidden = true
+            timeLabel.isHidden = true
+            progressLabel.isHidden = true
+            correctWordsLabel.isHidden = true
+            startButton.isHidden = false
+            finalScore.isHidden = false
+            timer?.invalidate()
+            timer = nil
+        }
+    }
+
     
     
     func checker() -> Void {
@@ -91,9 +183,16 @@ class anagramsViewController: UIViewController {
                 but5.isUserInteractionEnabled = true
                 but6.setTitleColor(UIColor.black, for: .normal)
                 but6.isUserInteractionEnabled = true
+                
+                if correct_guesses > 5{
+                    timeLeft += 4
+                }else{
+                    timeLeft += 8
+                }
             }
         }
         guessesLabel.text = String(correct_guesses)
+        finalScore.text = "you got " + String(correct_guesses)
     }
     
     

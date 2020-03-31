@@ -126,12 +126,32 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fH-2a-Idz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fH-2a-Idz">
                                 <rect key="frame" x="329" y="238" width="65" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqJ-cw-qkk">
+                                <rect key="frame" x="171" y="348" width="73" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="start">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButn:" destination="n57-FN-gNx" eventType="touchUpInside" id="Ibo-Tj-jUg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tx7-Xx-f3R">
+                                <rect key="frame" x="147" y="314" width="122" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -145,9 +165,13 @@
                         <outlet property="but4" destination="DCC-aa-u1X" id="Nji-tg-V6X"/>
                         <outlet property="but5" destination="FR6-3D-fRK" id="iTd-Zb-yl9"/>
                         <outlet property="but6" destination="xEN-aA-yFG" id="hj9-LD-7ZW"/>
+                        <outlet property="clearButn" destination="JUV-FV-PIv" id="kWN-ej-69a"/>
                         <outlet property="correctWordsLabel" destination="77A-qh-Fbe" id="8ak-c7-8Dp"/>
+                        <outlet property="finalScore" destination="tx7-Xx-f3R" id="1bg-ox-mAf"/>
                         <outlet property="guessesLabel" destination="zpI-KP-zUe" id="C4p-mf-enq"/>
                         <outlet property="progressLabel" destination="dgq-gO-zme" id="Rz8-G2-58j"/>
+                        <outlet property="startButton" destination="BqJ-cw-qkk" id="x6a-el-fT7"/>
+                        <outlet property="timeLabel" destination="2fH-2a-Idz" id="4NZ-hS-vTJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2hH-Z9-mKY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

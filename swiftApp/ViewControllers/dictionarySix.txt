@@ -1,6 +1,4 @@
-a-ok
-ab
-aba
+a
 abaca
 aback
 abacus
@@ -18,7 +16,6 @@ abbe
 abbess
 abbey
 abbot
-abc
 abdal
 abduce
 abduct
@@ -81,7 +78,6 @@ abwatt
 aby
 abysm
 abyss
-ac
 acacia
 acadia
 acarid
@@ -157,7 +153,6 @@ aculea
 acumen
 acun
 acute
-ad
 ad-lib
 adad
 adaga
@@ -347,7 +342,6 @@ ague
 aguets
 aguish
 agural
-ah
 aha
 ahab
 ahead
@@ -389,7 +383,6 @@ akee
 akimbo
 akin
 akron
-al
 ala
 alack
 alalia
@@ -530,7 +523,6 @@ alum
 alvine
 always
 alytes
-am
 ama
 amadou
 amah
@@ -601,7 +593,6 @@ amuse
 amused
 amyl
 amyxia
-an
 ana
 anal
 analog
@@ -779,7 +770,6 @@ aqaba
 aqatic
 aqua
 aquila
-ar
 ara
 arab
 araba
@@ -925,7 +915,6 @@ arum
 arundo
 aruru
 aryan
-as
 asana
 asarh
 asarum
@@ -1001,7 +990,6 @@ asura
 asvins
 aswan
 asylum
-at
 atajo
 ataxia
 ataxic
@@ -1041,7 +1029,6 @@ attila
 attire
 atto
 attune
-au
 auburn
 auc
 auctor
@@ -1155,7 +1142,6 @@ awning
 awny
 awol
 awry
-ax
 axenic
 axial
 axil
@@ -1166,7 +1152,6 @@ axle
 axon
 axonal
 axseed
-ay
 ayah
 aye
 ayin
@@ -1188,7 +1173,6 @@ azure
 azymia
 bte
 b-girl
-ba
 baa
 baal
 baas
@@ -1416,10 +1400,6 @@ bayou
 bays
 bazaar
 bazein
-bb
-bc
-bd
-be
 beach
 beachy
 beacon
@@ -1610,15 +1590,11 @@ bey
 beyond
 bezant
 bezel
-bf
-bg
-bh
 bhadon
 bhaga
 bhang
 bhisti
 bhutan
-bi
 bialy
 bias
 biased
@@ -1728,9 +1704,6 @@ bitt
 bitten
 bitter
 bitty
-bj
-bk
-bl
 blab
 black
 blade
@@ -1821,7 +1794,6 @@ blurb
 blurt
 blush
 blut
-bo
 boa
 boann
 boar
@@ -2049,7 +2021,6 @@ boyar
 boyish
 boyne
 bozo
-bp
 bra
 brace
 braced
@@ -2349,7 +2320,6 @@ buying
 buyout
 buzz
 bvd's
-by
 bye
 byelaw
 bygone
@@ -2369,7 +2339,6 @@ byway
 byways
 byword
 c.o.d.
-ca
 cab
 cabal
 cabala
@@ -2670,11 +2639,8 @@ cayman
 caymon
 cayuga
 cayuse
-cb
-cc
 cd-r
 cd-rom
-ce
 ceasar
 cease
 cebu
@@ -2742,9 +2708,7 @@ cetera
 ceux
 ceylon
 cf.
-cg
 cgs
-ch
 chacma
 chacun
 chad
@@ -2974,7 +2938,6 @@ civil
 civile
 civis
 civism
-cl
 clack
 clad
 clade
@@ -3080,9 +3043,7 @@ clupea
 clusia
 clutch
 cmoney
-cn
 cnicus
-co
 co-ed
 coach
 coaid
@@ -3404,7 +3365,6 @@ cozen
 cozily
 cozy
 crme
-cr
 crab
 crabbe
 crabs
@@ -3663,7 +3623,6 @@ cutoff
 cutout
 cutter
 cuum
-cv
 cwater
 cwt
 cyamus
@@ -3690,7 +3649,6 @@ cystic
 czar
 czech
 d-day
-da
 dab
 daba
 dabble
@@ -3849,10 +3807,6 @@ days
 daze
 dazed
 dazzle
-db
-dc
-dd
-de
 deacon
 dead
 deaden
@@ -4081,9 +4035,7 @@ dewy
 dexter
 dextro
 dey
-df
 dfie
-dg
 dhak
 dharma
 dhawa
@@ -4094,7 +4046,6 @@ dhote
 dhoti
 dhow
 dhu
-di
 diable
 diadem
 dial
@@ -4247,7 +4198,6 @@ dixit
 dizdar
 dizen
 dizzy
-do
 doa
 dobra
 dobson
@@ -4399,7 +4349,6 @@ doze
 dozen
 dozy
 dphil
-dr
 drab
 draba
 drably
@@ -4494,8 +4443,6 @@ dryas
 dryden
 dryer
 drypis
-dt
-du
 dual
 dub
 dubash
@@ -4602,7 +4549,6 @@ dynamo
 dynast
 dyne
 e'en
-ea
 each
 eacles
 eager
@@ -4641,7 +4587,6 @@ eating
 eau
 eaux
 eaves
-eb
 ebb
 ebb(a)
 ebbing
@@ -4664,7 +4609,6 @@ ectasy
 ecto
 ectype
 eczema
-ed
 edam
 edax
 edda
@@ -4703,7 +4647,6 @@ efform
 effort
 effuse
 eft
-eg
 egad
 egeria
 egesta
@@ -4730,11 +4673,9 @@ ein
 eira
 eisen
 either
-ej
 eject
 ejecta
 eke
-el
 elaeis
 elaine
 elan
@@ -4785,7 +4726,6 @@ elul
 elver
 elves
 elymus
-em
 embalm
 embark
 embase
@@ -4818,7 +4758,6 @@ empta
 emptor
 empty
 emu
-en
 enable
 enact
 ename
@@ -4929,7 +4868,6 @@ equine
 equip
 equity
 equus
-er
 era
 eram
 erase
@@ -4968,7 +4906,6 @@ erste
 eruca
 erunt
 eryngo
-es
 esau
 escape
 escarp
@@ -4993,7 +4930,6 @@ esther
 esto
 estop
 estrus
-et
 eta
 etage
 etat
@@ -5045,7 +4981,6 @@ evolve
 evove
 ewe
 ewer
-ex
 ex(a)
 exact
 exacta
@@ -5113,7 +5048,6 @@ eyry
 fte
 fted
 faon
-fa
 faber
 fabian
 fable
@@ -5274,10 +5208,6 @@ fawn
 fax
 fay
 faze
-fb
-fc
-fd
-fe
 fealty
 fear
 fears
@@ -5387,9 +5317,6 @@ few
 fewer
 fey
 fez
-ff
-fg
-fh
 fianc
 fiance
 fiasco
@@ -5519,10 +5446,7 @@ fixity
 fizgig
 fizz
 fizzle
-fj
 fjord
-fk
-fl
 flab
 flabby
 flag
@@ -5751,7 +5675,6 @@ fowls
 fox
 foxy
 foyer
-fr
 fraca
 fracas
 fracta
@@ -5926,10 +5849,8 @@ fuzz
 fuzzed
 fuzzle
 fuzzy
-fv
 fylfot
 g-man
-ga
 gab
 gabble
 gabbro
@@ -6090,11 +6011,7 @@ gaze
 gazebo
 gazer
 gazing
-gb
-gc
-gd
 gdansk
-ge
 gean
 geant
 gear
@@ -6165,10 +6082,7 @@ geture
 geum
 gewgaw
 geyser
-gf
 gfront
-gg
-gh
 ghana
 gharry
 ghat
@@ -6183,7 +6097,6 @@ ghosts
 ghoul
 ghurry
 ghyll
-gi
 giant
 giants
 giaour
@@ -6243,9 +6156,6 @@ giver
 givers
 giving
 giza
-gj
-gk
-gl
 glac
 glacis
 glad
@@ -6337,7 +6247,6 @@ gnomon
 gnosis
 gnothi
 gnu
-go
 goad
 goal
 goaler
@@ -6429,7 +6338,6 @@ gowned
 goy
 gpa
 grce
-gr
 gr/
 gr/dos
 gr/kat
@@ -6673,7 +6581,6 @@ guzzle
 gvisum
 gvr
 gwyn
-gy
 gybe
 gym
 gynura
@@ -6688,7 +6595,6 @@ gyro
 gyrus
 gysart
 gyve
-ha
 habe
 habeas
 habent
@@ -6865,10 +6771,6 @@ hazel
 hazily
 hazmat
 hazy
-hb
-hc
-hd
-he
 heaavy
 head
 headed
@@ -7008,8 +6910,6 @@ hexose
 hey
 heyday
 heydey
-hf
-hi
 hi-fi
 hiatus
 hic
@@ -7063,7 +6963,6 @@ hither
 hitler
 hive
 hms
-ho
 hoar
 hoard
 hoards
@@ -7344,7 +7243,6 @@ iconic
 ictu
 ictus
 icy
-id
 idaho
 idas
 ide
@@ -7367,9 +7265,7 @@ idonea
 idun
 idyl
 idyll
-ie
 ies
-if
 igigi
 igloo
 iglu
@@ -7378,11 +7274,8 @@ ignis
 ignite
 ignore
 iguazu
-ii
 iii
 iiip
-ij
-il
 ilama
 ileum
 ilex
@@ -7399,7 +7292,6 @@ ills
 illume
 illuse
 ils
-im
 image
 images
 imago
@@ -7441,7 +7333,6 @@ impugn
 impune
 impure
 impute
-in
 in(a)
 in(p)
 in-law
@@ -7582,7 +7473,6 @@ invito
 invoke
 inward
 inwrap
-io
 iodide
 iodine
 ion
@@ -7622,7 +7512,6 @@ irony
 irota
 irtish
 irula
-is
 isaac
 isatis
 ischia
@@ -7646,7 +7535,6 @@ ist
 istic
 istos
 isurus
-it
 italic
 italy
 itch
@@ -7656,7 +7544,6 @@ iterum
 its
 itself
 itur
-iv
 ivied
 ivory
 ivry
@@ -7666,7 +7553,6 @@ ixia
 ixion
 ixodes
 iyar
-ja
 jab
 jabber
 jabiru
@@ -7726,10 +7612,6 @@ jaws
 jay
 jazz
 jazzy
-jb
-jc
-jd
-je
 jean
 jecur
 jeep
@@ -7776,7 +7658,6 @@ jewess
 jewis
 jewish
 jews
-jf
 jhil
 jhuth
 jiao
@@ -7860,7 +7741,6 @@ joy
 joyful
 joyous
 joys
-jp
 juan
 jubbah
 jube
@@ -7931,9 +7811,7 @@ justus
 jut
 jute
 jutty
-jy
 jynx
-ka
 kabob
 kabul
 kachin
@@ -7994,10 +7872,6 @@ kayak
 kazak
 kazan
 kazoo
-kb
-kc
-kd
-ke
 kea
 kean
 keats
@@ -8038,9 +7912,6 @@ kettle
 key
 keyed
 keynes
-kf
-kg
-kh
 khaki
 khamti
 khan
@@ -8053,7 +7924,6 @@ khoum
 khowar
 khudd
 khuen
-ki
 kiack
 kiang
 kibe
@@ -8118,8 +7988,6 @@ kitsch
 kitten
 kitty
 kiwi
-kj
-kl
 klan
 klaxon
 klutz
@@ -8187,7 +8055,6 @@ kotoko
 kotow
 kowhai
 kowtow
-kr
 kraal
 kraft
 krait
@@ -8215,7 +8082,6 @@ kuvasz
 kuvi
 kuwait
 kvass
-kw
 kwa
 kwack
 kwanza
@@ -8225,7 +8091,6 @@ kyles
 kylie
 kyoto
 kyushu
-la
 laager
 lab
 labefy
@@ -8422,10 +8287,6 @@ lays
 lazily
 lazuli
 lazy
-lb
-lc
-ld
-le
 lea
 leach
 lead
@@ -8577,14 +8438,10 @@ lexis
 ley
 leymus
 leyte
-lf
-lg
-lh
 lhasa
 lheure
 lhomme
 lhotse
-li
 liable
 liana
 liar
@@ -8742,9 +8599,6 @@ livret
 livy
 liza
 lizard
-lj
-lk
-ll
 llaga
 llama
 llano
@@ -8752,9 +8606,6 @@ lll
 lloyds
 llud
 llyr
-lm
-ln
-lo
 loach
 load
 loaded
@@ -8919,8 +8770,6 @@ loxoma
 loy
 loyal
 loyaut
-lp
-lq
 lsd
 luanda
 luba
@@ -9008,7 +8857,6 @@ luxury
 luyia
 luzon
 lwei
-ly
 lyceum
 lycian
 lycium
@@ -9034,7 +8882,6 @@ lysine
 lysis
 lysol
 lytton
-ma
 maalox
 maana
 mab
@@ -9356,11 +9203,7 @@ maze
 mazed
 mazer
 mazy
-mb
-mc
 mccoy
-md
-me
 mea
 mead
 meadow
@@ -9522,12 +9365,8 @@ mewl
 mews
 mexico
 mezzo
-mf
 mflops
-mg
-mh
 mho
-mi
 miami
 miasm
 miasma
@@ -9670,12 +9509,8 @@ mixen
 mixer
 mizzen
 mizzle
-mj
-mk
-ml
 mnd
 mnium
-mo
 moa
 moan
 moat
@@ -9888,14 +9723,10 @@ mow
 mown
 moxa
 mozart
-mp
-mr
 mrs
-ms
 ms-dos
 ms.
 msasa
-mu
 much
 muchos
 mucid
@@ -10018,7 +9849,6 @@ muzhik
 muzzle
 muzzy
 mwera
-my
 mya
 myelic
 myelin
@@ -10045,7 +9875,6 @@ myth
 mythic
 myxine
 n't
-na
 nab
 nabob
 naboom
@@ -10146,10 +9975,6 @@ nay
 naze
 nazi
 nazism
-nb
-nc
-nd
-ne
 neaf
 neap
 near
@@ -10239,14 +10064,10 @@ newton
 nex
 next
 nexus
-nf
 nfld
 nfor
-ng
 nguni
 ngwee
-nh
-ni
 niacin
 niais
 niamey
@@ -10322,11 +10143,7 @@ nixie
 nixon
 nizam
 nizy
-nj
 njord
-nk
-nl
-no
 no(a)
 no-go
 no-hit
@@ -10434,9 +10251,7 @@ nowise
 nox
 noyade
 nozzle
-nt
 nth
-nu
 nuance
 nub
 nubbin
@@ -10493,7 +10308,6 @@ nuture
 nux
 nuzzle
 nwill
-ny
 nyala
 nybble
 nylon
@@ -10516,7 +10330,6 @@ oath
 oaths
 oats
 oaxaca
-ob
 obeah
 obeche
 oberon
@@ -10558,7 +10371,6 @@ octroi
 ocular
 oculi
 oculis
-od
 odd
 oddity
 odds
@@ -10577,7 +10389,6 @@ oer
 oertop
 oeuvre
 oevum
-of
 off
 off(p)
 offal
@@ -10600,7 +10411,6 @@ ogler
 ogni
 ogre
 ogress
-oh
 ohio
 ohioan
 ohm
@@ -10616,7 +10426,6 @@ oils
 oily
 ointer
 ojibwa
-ok
 oka
 okapi
 okapia
@@ -10641,7 +10450,6 @@ ollari
 olm
 olmo
 ology
-om
 omaha
 oman
 omani
@@ -10663,7 +10471,6 @@ omnis
 omnium
 omotic
 omsk
-on
 on(p)
 on-key
 onager
@@ -10724,7 +10531,6 @@ optime
 option
 opum
 opus
-or
 ora
 orach
 oracle
@@ -10786,7 +10592,6 @@ orts
 oryx
 oryza
 orzo
-os
 osage
 osaka
 oscan
@@ -10806,7 +10611,6 @@ ostler
 ostrea
 ostrya
 ostyak
-ot
 otaria
 ote
 other
@@ -10824,7 +10628,6 @@ ottawa
 otter
 otto
 otus
-ou
 oublic
 ouch
 oudre
@@ -10875,7 +10678,6 @@ ovoid
 ovular
 ovule
 ovum
-ow
 owe
 owing
 owl
@@ -10888,7 +10690,6 @@ owned
 owner
 owns
 owr
-ox
 oxalis
 oxbow
 oxcart
@@ -10910,7 +10711,6 @@ oyez
 oyster
 ozarks
 ozone
-pa
 pablum
 paca
 pace
@@ -11167,11 +10967,7 @@ paynim
 payoff
 payola
 pays
-pb
-pc
 pcoat
-pd
-pe
 pea
 peace
 peach
@@ -11317,9 +11113,6 @@ pew
 pewee
 pewter
 peziza
-pf
-pg
-ph
 phage
 phagun
 phaius
@@ -11368,7 +11161,6 @@ phyllo
 phylum
 physa
 physic
-pi
 pia
 piaffe
 piaget
@@ -11516,9 +11308,6 @@ pixy
 pizazz
 pizza
 pizzle
-pj
-pk
-pl
 place
 placed
 placer
@@ -11609,9 +11398,7 @@ plush
 pluto
 plutus
 ply
-pm
 pness
-po
 poa
 poach
 poachy
@@ -11774,7 +11561,6 @@ powt
 powwow
 pox
 ppour
-pr
 praam
 prague
 prahu
@@ -11900,7 +11686,6 @@ pruner
 prunus
 pry
 prying
-ps
 psalm
 psenes
 psetta
@@ -11916,7 +11701,6 @@ pteris
 ptisan
 ptosis
 ptyas
-pu
 pub
 pubes
 pubic
@@ -12035,7 +11819,6 @@ putter
 putty
 puzzle
 pvrk
-py
 pya
 pydna
 pygmy
@@ -12052,13 +11835,11 @@ pyxie
 pyxis
 qatar
 qatari
-qc
 qed
 qfever
 qiana
 qiang
 qoph
-qs
 qua
 quack
 quad
@@ -12158,7 +11939,6 @@ quoth
 quovis
 qurush
 quun
-ra
 rabat
 rabato
 rabbet
@@ -12330,10 +12110,6 @@ razor
 razure
 razz
 razzia
-rb
-rc
-rd
-re
 reach
 react
 read
@@ -12569,9 +12345,6 @@ revue
 reward
 reword
 rez
-rf
-rg
-rh
 rhapis
 rhea
 rhesus
@@ -12591,7 +12364,6 @@ rhymer
 rhymes
 rhynia
 rhythm
-ri
 riant
 rib
 ribald
@@ -12693,10 +12465,6 @@ river
 rivet
 rivina
 riyadh
-rj
-rk
-rl
-ro
 roach
 road
 roads
@@ -12832,7 +12600,6 @@ rowen
 rower
 rowing
 royal
-rs
 ruade
 ruat
 rub
@@ -12929,12 +12696,10 @@ ruta
 ruth
 rutile
 rutted
-rv
 rwanda
 rya
 rye
 ryot
-sa
 saba
 sabah
 sabal
@@ -13154,9 +12919,7 @@ saxony
 say
 say-so
 saying
-sb
 sbirro
-sc
 scab
 scabby
 scad
@@ -13276,9 +13039,7 @@ scute
 scutum
 scylla
 scythe
-sd
 sdeath
-se
 sea
 sea(a)
 seabag
@@ -13480,10 +13241,7 @@ sexton
 sexual
 sexy
 seyyid
-sf
 sfax
-sg
-sh
 shabby
 shack
 shad
@@ -13646,7 +13404,6 @@ shut
 shy
 shy(p)
 shyly
-si
 siaats
 sialia
 sialis
@@ -13797,8 +13554,6 @@ sizar
 size
 sized
 sizzle
-sj
-sk
 skagit
 skald
 skanda
@@ -13846,7 +13601,6 @@ skurry
 sky
 skye
 skylab
-sl
 slab
 slabby
 slack
@@ -13942,7 +13696,6 @@ slush
 slushy
 slut
 sly
-sm
 smack
 small
 smalls
@@ -13982,7 +13735,6 @@ smush
 smut
 smutch
 smutty
-sn
 snack
 snacks
 snafu
@@ -14037,7 +13789,6 @@ snuffs
 snuffy
 snug
 snugly
-so
 so(p)
 soak
 soaker
@@ -14363,7 +14114,6 @@ squirm
 squirt
 squish
 ssc
-st
 stab
 stable
 stabs
@@ -14596,7 +14346,6 @@ stylus
 stymie
 styrax
 styx
-su
 sua
 suae
 suant
@@ -14797,7 +14546,6 @@ syzygy
 ttons
 t-bar
 t-man
-ta
 tab
 tabard
 tabble
@@ -14988,10 +14736,6 @@ tay
 taylor
 tayra
 tazza
-tb
-tc
-td
-te
 tea
 teach
 teacup
@@ -15123,10 +14867,7 @@ teuton
 texan
 texas
 text
-tf
-tg
 thtre
-th
 thai
 thais
 thalia
@@ -15242,7 +14983,6 @@ thy
 thyme
 thymol
 thymus
-ti
 tiamat
 tiara
 tiber
@@ -15364,12 +15104,8 @@ titus
 tiu
 tivoli
 tizzy
-tj
-tk
-tl
 tmesis
 tnt
-to
 toad
 toady
 toast
@@ -15532,7 +15268,6 @@ toxic
 toxin
 toy
 toyon
-tr
 tra-la
 trace
 tracer
@@ -15680,7 +15415,6 @@ tsar
 tsouic
 tsuga
 tswana
-tu
 tua
 tuareg
 tub
@@ -15785,7 +15519,6 @@ tuxedo
 tuyare
 tvg
 tvr
-tw
 twain
 twang
 twas
@@ -15854,7 +15587,6 @@ ugric
 uigur
 ukase
 uke
-ul
 ulcer
 ulcus
 ulema
@@ -15879,7 +15611,6 @@ umbra
 umbria
 umlaut
 umpire
-un
 una
 unable
 unaged
@@ -16006,7 +15737,6 @@ unwind
 unwise
 unworn
 unwrap
-up
 up(a)
 up(p)
 up-bow
@@ -16040,7 +15770,6 @@ upturn
 upupa
 upward
 upwind
-ur
 uracil
 uralic
 urals
@@ -16073,7 +15802,6 @@ urnam
 ursine
 ursus
 urtica
-us
 usage
 usance
 use
@@ -16091,7 +15819,6 @@ usurer
 usurp
 usury
 usus
-ut
 uta
 utah
 utahan
@@ -16112,7 +15839,6 @@ uxor
 uzbek
 uzi
 v-day
-va
 vac
 vacant
 vacate
@@ -16193,10 +15919,6 @@ vaunt
 vaunts
 vaut
 vayu
-vb
-vc
-vd
-ve
 veadar
 veal
 veas
@@ -16321,10 +16043,7 @@ veuve
 vex
 vexata
 vexed
-vf
-vg
 vgreat
-vi
 via
 viable
 vial
@@ -16510,9 +16229,7 @@ vows
 vox
 voyage
 voyeur
-vr
 vrouw
-vt
 vue
 vulcan
 vulgar
@@ -16529,7 +16246,6 @@ vulva
 vulvar
 vwith
 vying
-wa
 wabash
 wabble
 wad
@@ -16654,10 +16370,6 @@ waxy
 way
 waylay
 ways
-wb
-wc
-wd
-we
 weak
 weaken
 weaker
@@ -16727,9 +16439,6 @@ wesley
 west
 wet
 wether
-wf
-wg
-wh
 wha
 whack
 whale
@@ -16802,7 +16511,6 @@ whos
 whose
 why
 whydah
-wi
 wick
 wicked
 wicker
@@ -16910,10 +16618,6 @@ wives
 wiz
 wizard
 wizen
-wj
-wk
-wl
-wm
 woad
 wobble
 woden
@@ -16999,7 +16703,6 @@ wrote
 wry
 wryly
 wth
-wu
 wuther
 wynd
 wynnea
@@ -17012,7 +16715,6 @@ xeres
 xeric
 xerox
 xhosa
-xi
 xian
 xrated
 xray
@@ -17063,7 +16765,6 @@ yawn
 yawp
 yaws
 yay
-ye
 yea
 yeah
 yean
@@ -17094,7 +16795,6 @@ yew
 yield
 yip
 ymir
-yo
 yo-yo
 yodel
 yodh
@@ -17135,7 +16835,6 @@ yup
 yuppie
 yurt
 z-axis
-za
 zaar
 zaffer
 zagreb
@@ -17150,10 +16849,6 @@ zap
 zapus
 zarf
 zayin
-zb
-zc
-zd
-ze
 zea
 zeal
 zealot
@@ -17210,7 +16905,6 @@ zoril
 zouave
 zounds
 zoysia
-zu
 zulu
 zurich
 zygoma
@@ -17218,3 +16912,25 @@ zygote
 zymase
 a
 i
+as
+to
+on
+no
+if
+of
+so
+an
+ha
+he
+hi
+at
+do
+is
+in
+it
+me
+my
+or
+pi
+up
+be
